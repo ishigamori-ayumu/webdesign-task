@@ -1,0 +1,24 @@
+@charset "utf-8";
+.resizeimag img {width: 100%;}
+body{
+    background-image: url("背景.png");
+    background-size: cover;
+}
+td{
+    font-weight: bold;
+}
+strong{
+    color: brown;
+}
+caption{
+    color: rgb(94, 94, 215);
+}
+/* body{
+    width: 400;
+    height: 200;
+    background-image: url("背景.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    opacity: 2.0;
+} */
