@@ -1,0 +1,16 @@
+@charset "utf-8";
+.text-0 {
+    color: rgb(255, 255, 255);
+}
+
+#bg-1 {
+    background-color: rgb(71, 218, 220);
+}
+
+.bg-2 {
+    background-color: rgb(54, 132, 163);
+}
+
+span{
+    border: 2px dotted rgb(4, 47, 63);
+}
