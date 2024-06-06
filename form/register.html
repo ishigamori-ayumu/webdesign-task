@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register-style.css">
+    <title>登録フォーム</title>
+</head>
+
+<body>
+    <p>必要事項を入力の上、送信ボタンを押してください。</p>
+    <form action="#" method="post" enctype="multipart/form-data">
+        ID(メールアドレス)<input type="email" size="30" required><br>
+        パスワード<input type="password" name="user_pw" size="30" minlength="8" required><label><input type="checkbox" name="gender" value="other">パスワードを表示する</label><br>
+        氏名
+        性<input type="text" name="last_name" placeholder="盛岡"required>
+        名<input type="text" name="farst_name" placeholder="太郎"required><br>
+        住所
+        〒<input type="text" name="yuubin" size="8"><br>
+          <input type="text" name="bannti"placeholder="番地"><br>
+          <input type="text" name="tatemonomei"placeholder="建物名"><br>
+
+        電話番号(ハイフンなし)<input type="tel" name="dennwabanngou"required><br>
+        学科・学年 <select name="gakka" required>
+            <option value="">学科を選択してください</option>
+            <option value="A">システム化</option>
+            <option value="B">ビジネス化</option>
+            <option value="O">デザイン科</option>
+        お得な情報・クーポン<input type="radio" name="check" required><br>
+        <button type="submit">送信</button>
+        <button type="reset">リセット</button>
+        
+    </form>
+</body>
+
+</html>
