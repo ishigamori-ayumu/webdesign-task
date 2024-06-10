@@ -9,9 +9,11 @@
 </head>
 
 <body>
+    <form action="#" method="post">
+    <form action="#" method="get">
     <p>必要事項を入力の上、送信ボタンを押してください。</p>
     <form action="#" method="post" enctype="multipart/form-data">
-        ID(メールアドレス)<input type="email" size="30" required><br>
+        ID<span>必須</span>（メールアドレス）<input type="email" name="email" size="30"><label><input type="checkbox" name="pw_open">パスワードを表示する</label><br>
         パスワード<input type="password" name="user_pw" size="30" minlength="8" required><label><input type="checkbox" name="gender" value="other">パスワードを表示する</label><br>
         氏名
         性<input type="text" name="last_name" placeholder="盛岡"required>
